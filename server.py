@@ -17,7 +17,7 @@ def post_json():
         df.to_csv('data.csv', mode='a+', header=False, index=None)
     except:
         return 'error'
-    return jsonify(data)
+    return jsonify(r)
 
 if __name__ == '__main__':
     app.debug = True
