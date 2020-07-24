@@ -2,9 +2,9 @@
 #include <LRTC.h>
 #include <LWiFi.h>
 DHT dht21_p2(2, DHT21);
-char ssid[] = "TonnyLab-VDSL";
-char pass[] = "af58535853";
-char server[] = "192.168.1.108";
+char ssid[] = "";
+char pass[] = "";
+char server[] = "";
 void printWifiStatus();
 int status = WL_IDLE_STATUS;
 WiFiClient client;
